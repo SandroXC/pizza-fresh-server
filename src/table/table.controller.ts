@@ -3,11 +3,11 @@ import { TableService } from './table.service';
 
 @Controller('table')
 export class TableController {
-  constructor(private tableService: TableService) {}  
+  constructor(private tableService: TableService) {}
 
-  @Get()	
+  @Get()
   findAll() {
-   return this.tableService.findAll();
+    return this.tableService.findAll();
   }
 
   @Post()

@@ -10,4 +10,3 @@ export class TableService {
     return 'Criar uma mesa';
   }
 }
-
