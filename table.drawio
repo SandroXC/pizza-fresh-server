@@ -554,4 +554,96 @@
             </root>
         </mxGraphModel>
     </diagram>
+    <diagram name="Entities (contin II)" id="PiswQ7zerSduesIA2O2F">
+        <mxGraphModel dx="698" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-0"/>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-1" parent="Yhki4HQiKk2XSNIcJEdN-0"/>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-2" value="entities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D4D4D;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="161" y="139" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1" source="Yhki4HQiKk2XSNIcJEdN-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="291" y="109" as="sourcePoint"/>
+                        <mxPoint x="281" y="109" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-4" value="table.entity.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283" y="79" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="363" y="108" as="sourcePoint"/>
+                        <mxPoint x="403" y="48" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-6" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="161.0007812271126" y="338" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1" source="Yhki4HQiKk2XSNIcJEdN-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="291.0007812271126" y="308" as="sourcePoint"/>
+                        <mxPoint x="280" y="245" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="241.0007812271126" y="368" as="sourcePoint"/>
+                        <mxPoint x="280" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-9" value="Buscar todas as mesas:&lt;br&gt;findAll( )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283.0007812271126" y="220" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-10" value="Criar mesa:&lt;br&gt;create( )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283.0007812271126" y="350" width="98" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-11" value="" style="endArrow=classic;html=1;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="370" as="sourcePoint"/>
+                        <mxPoint x="160" y="369.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-12" value="controller" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-13" value="table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="41" y="40" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1" source="Yhki4HQiKk2XSNIcJEdN-13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="91" y="210" as="sourcePoint"/>
+                        <mxPoint x="161" y="169" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-15" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#F0F0F0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="242.5007812271126" y="368" as="sourcePoint"/>
+                        <mxPoint x="280" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="243.0007812271126" y="369" as="sourcePoint"/>
+                        <mxPoint x="281" y="431" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-17" value="Buscar uma mesa:&lt;br&gt;findOne( )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283.0007812271126" y="288" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Yhki4HQiKk2XSNIcJEdN-18" value="Atualizar mesa:&lt;br&gt;update( )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283.0007812271126" y="405" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="07uIkPmyxieLMuAMDqln-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="245.0007812271126" y="369" as="sourcePoint"/>
+                        <mxPoint x="280" y="369" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVmKKqgWkcK3eznkzQ5A-0" value="Deletar mesa:&lt;br&gt;delete( )" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Yhki4HQiKk2XSNIcJEdN-1">
+                    <mxGeometry x="283.0007812271126" y="475" width="140" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
